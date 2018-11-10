@@ -1,0 +1,342 @@
+header{
+    background-color: #ffffff;
+    border: #cccccc solid 3px;
+    height: 88px;
+    width: 55em;
+    margin: 0px;
+
+}
+
+html{
+    background-image: url("../images/qbkls.png");
+   
+}
+/*
+makes the links highlighted with rounded edges
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+}
+for the navigation bar
+li {
+    float: left;
+}
+
+a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+}
+*/
+
+.poof{
+    width: 300px;
+    padding: .5px 200px;
+
+}
+
+ h1{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+   
+} 
+
+h2{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color:#4aaaa5;
+    text-align: left;
+}
+.hline { 
+    width:100%; height:3px; background: 1px;
+}
+
+.structure {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    background-color: #ffffff;
+    border: #dddddd solid 3px;
+    text-align: left;
+    width: 930px;
+    height: 800px;
+    padding: 30px;
+    margin: 30px 200px;
+    box-sizing: border-box;
+    font-size: 20px;
+
+}
+#picture {
+    width: 10em;
+    float: left;
+    margin: 20px;
+}
+body{
+    width: 930px;
+    height: 800px;
+}
+.topnav{
+    margin: -3em 0 0 45em;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 20px;
+    color: #777777;  
+}
+a{
+    color: #777777;
+    text-decoration: none;
+}
+a:hover{
+    color:#4aaaa5;
+    opacity: 2;
+}
+
+/*
+a :visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+a :hover {
+    color: #4aaaa5;
+    background-color: transparent;
+    text-decoration: underline;
+}
+*/
+input {
+    font-size: 30px;
+    height: 25px;
+    width: 870px;
+    line-height: 5px;
+}
+.message{
+    font-size: 40px;
+    height:200px;
+    width: 870px;
+}
+
+.block_1{
+    background-color: darkgray;
+    height: 10px;
+    width: 870px;
+}
+.h_line{
+    background-color: darkgray;
+   
+}
+#footer {
+    clear: both;
+    position: relative;
+    height: .5em;
+    width: 55em;
+    margin-top: -1em;
+    background-color: #4aaaa5;
+}
+#footer2 {
+    clear: both;
+    position: relative;
+    height: 3em;
+    width: 55em;
+    margin-top: 0em;
+    background-color: #777777;
+}
+#picture1{
+float: left;
+margin: auto;
+padding: 10px;
+height:200px;
+width: 400px;
+}
+#picture2{
+float: right;
+margin: auto;
+padding: 10px;
+height:200px;
+width: 400px;
+}
+#picture3{
+float: left;
+margin: auto;
+padding: 10px;
+height:200px;
+width: 400px;
+}
+#picture4{
+float: right;
+margin: auto;
+padding: 10px;
+height:200px;
+width: 400px;
+}
+#picture5{
+float: left;
+margin: auto;
+padding: 10px;
+height:200px;
+width: 400px;
+}
+
+.hangman{
+    height: 50px;
+    width: 400px;
+    background-color: #4aaaa5;
+    color: #777777;
+    z-index: 1;
+    position: relative;
+    top: 150px;
+    right: -10.5px;
+
+}
+
+.rpgGame{
+    height: 50px;
+    width: 400px;
+    background-color: #4aaaa5;
+    color: #777777;
+    z-index: 1;
+    position: relative;
+    top: 100px;
+    left: 450px;
+
+}
+
+.triviaGame{
+    height: 50px;
+    width: 400px;
+    background-color: #4aaaa5;
+    color: #777777;
+    z-index: 1;
+    position: relative;
+    top: 250px;
+    right: -10.5px:
+
+}
+.rutgers{
+    height: 50px;
+    width: 400px;
+    background-color: #4aaaa5;
+    color: #777777;
+    z-index: 1;
+    position: relative;
+    top: 200px;
+    left: 451px;
+
+}
+
+.rock{
+    height: 50px;
+    width: 400px;
+    background-color: #4aaaa5;
+    color: #777777;
+    z-index: 1; 
+    position: relative;
+    top: 370px;
+    right: -12px;
+
+}
+.submit:hover{
+    background-color: #4aaaa5;
+
+}
+@media screen and (max-width: 640px){
+    header {
+        background-color: #ffffff;
+        border: #cccccc solid 3px;
+        height: 100px;
+        width: 445px;
+        margin: 0px;
+    }
+    h1 {
+        display: block;
+        font-size: 40px;
+        font-weight: bold;
+        width: 445px;
+        margin: 0 0 20px 0;
+        
+    }
+    .poof{ position: static;
+           top:0;
+           padding: .5px 0px;
+           width: 175px;
+           height: 70px:
+          
+
+    }
+    .topnav{position: static;;
+            top: 0;
+            margin: 0;
+            font-size: 25px;
+            padding-left: 90px;
+
+
+    }
+    #picture{ height: 10em;
+              width: auto;
+              padding: 0;
+              margin: 2px;
+
+    }
+    .structure{ font-size: 15px;
+                width: 450px;
+                height: 1200px;
+               margin: 0px;
+
+
+    }
+    .block_1 {
+        background-color: darkgray;
+        height: 10px;
+        width: 400px;
+    }
+    #footer{
+        width: 600px;
+    }
+    #footer2{
+        width: 600px;
+    }
+    #picture1{ margin: 0px 0px 30px 0px;
+               float: none;
+               padding: 10px 5px 10px 0px;
+    }
+    #picture2{margin: 0px 0px 30px 0px;
+              float: none;
+             padding: 10px 5px 10px 0px;
+    }
+    #picture3{margin: 0px 0px 30px 0px;
+              float: none;
+              padding: 10px 5px 10px 0px;
+    }
+    #picture4{margin: 0px 0px 30px 0px;
+              float: none;
+              padding: 10px 5px 10px 0px;
+    }
+    #picture5{margin: 0px 0px 30px 0px;
+              float: none;
+             padding: 10px 5px 10px 0px;
+
+    }
+    .hangman{
+        right: 0px;
+        top: -620px;
+    }
+    .rpgGame{
+        right: 0px;
+        top: -410px;
+        left: 0px;
+    }
+    .triviaGame{right: 0px;
+                top: -220px;
+    }
+    .rutgers{right: 0px;
+             top: 100px;
+             left: 0px;
+    }
+
+ }
+
+@media screen and (max-width:768px){
+
+}
+@media screen and (max-width: 980px){
+    
+}
