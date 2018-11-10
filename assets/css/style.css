@@ -500,5 +500,20 @@ width: 400px;
  }
 
 @media screen and (max-width: 980px){
-    
+
+    header{
+        width: 980px;
+    }
+    .topnav{
+        margin: -1.5em 0 0 37em;
+    }
+    .structure{
+        margin: 40px;
+    }
+    #footer{
+        width: 980px;
+    }
+    #footer2{
+        width: 980px;
+    }
 }
